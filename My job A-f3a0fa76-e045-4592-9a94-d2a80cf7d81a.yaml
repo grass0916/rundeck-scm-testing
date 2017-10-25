@@ -1,0 +1,14 @@
+- description: ''
+  executionEnabled: true
+  id: f3a0fa76-e045-4592-9a94-d2a80cf7d81a
+  loglevel: INFO
+  name: My job A
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo A
+    keepgoing: false
+    strategy: node-first
+  uuid: f3a0fa76-e045-4592-9a94-d2a80cf7d81a
+
